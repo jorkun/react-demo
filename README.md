@@ -3,6 +3,18 @@
 * `public/index.html` 项目模板文件;
 * `src/index.js` 项目入口文件.
 
+
+## 技术栈
+
+react@16.x<br>
+react-router@3.x<br>
+react-loadable@1.x<br>
+webpack@3.8.x<br>
+antd@3.x<br>
+axios@0.18<br>
+sass
+
+
 运行：
 
 ### `npm start`
@@ -24,11 +36,3 @@
 
 你可以打开react文档到(https://reactjs.org/docs/react-dom.html#browser-support) 获取更多react对浏览器支持信息.
 
-##技术栈
-react@16
-react-router@3.x
-react-loadable@1.x
-webpack@3.8.x
-antd@3.x
-axios@0.18
-sass
