@@ -1,0 +1,160 @@
+body,
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", "sans-serif";
+    color: #5d5d5d;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+input[readonly] {
+    background: #eee;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    .text-center {
+        text-align: center;
+    }
+    .table-action-box {
+        text-align: center;
+        .anticon {
+            color: #1890ff;
+            margin-right: 8px;
+            cursor: pointer;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.ant-table-small {
+    .ant-table-placeholder {
+        padding: 10px;
+    }
+}
+.ant-confirm {
+    .ant-confirm-body {
+        line-height: 40px;
+        .anticon {
+            display: none;
+        }
+        .ant-confirm-content {
+            margin: 0;
+            text-align: center;
+        }
+    }
+    .ant-confirm-btns {
+        text-align: center;
+        float: none !important;
+        .ant-btn {
+            width: 100px;
+            height: 28.22px;
+        }
+    }
+}
+
+.update-modal {
+    .ant-modal-header {
+        padding: 8px 12px;
+    }
+    .ant-form {
+        label,
+        .ant-form-explain {
+            font-size: 12px;
+        }
+    }
+    .ant-form-item {
+        margin-bottom: 0;
+    }
+    .ant-modal-close {
+        .ant-modal-close-x {
+            line-height: 40px;
+            width: 40px;
+        }
+    }
+    .ant-modal-body {
+        max-height: 350px;
+        overflow: auto;
+    }
+    .ant-modal-footer {
+        text-align: center;
+        border-top: none;
+        padding: 0 0 20px;
+        .ant-btn {
+            width: 100px;
+            height: 28.22px;
+        }
+    }
+    .ant-form-item-label label,
+    .ant-input,
+    .ant-select,
+    .ant-btn {
+        font-size: 12px;
+    }
+}
+
+.ant-select-dropdown-menu-item {
+    font-size: 12px;
+}
+
+.textarea-count {
+    position: absolute;
+    line-height: 20px;
+    font-size: 11px;
+    bottom: -8px;
+    right: 10px;
+    padding: 0 6px;
+    background: #eee;
+}
+.task-loading-wrapper {
+    line-height: 100px;
+    text-align: center;
+    height: 100%;
+    .anticon {
+        font-size: 30px;
+    }
+}

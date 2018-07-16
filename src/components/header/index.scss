@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    line-height: 60px;
+    min-height: 60px;
+    vertical-align: middle;
+    border-bottom: 1px solid #000;
+    background: #20222a;
+    box-shadow: 0 1px 2px 0 rgba(255, 255, 255, .05);
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    zoom: 1;
+    .logo {
+        color: #fff;
+        vertical-align: middle;
+        font-size: 22px;
+        font-family: cursive;
+        letter-spacing: 6px;
+        line-height: 60px;
+        min-height: 60px;
+    }
+    div.right {
+        min-height: 60px;
+        img {
+            height: 32px;
+            vertical-align: sub;
+            margin-right: 10px;
+            zoom: 1;
+        }
+        a.ant-dropdown-link {
+            zoom: 1;
+            color: #fff;
+            vertical-align: super;
+            display: inline-block;
+        }
+    }
+}

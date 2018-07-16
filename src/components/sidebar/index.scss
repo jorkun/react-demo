@@ -1,0 +1,44 @@
+.sidebar {
+    height: 100%;
+    background-color: #20222A;
+    width: 220px;
+    max-width: 220px;
+    color: rgba(255, 255, 255, .8);
+    z-index: 1;
+    .ant-menu-dark {
+        background: #20222A;
+        box-shadow: none;
+        &>.ant-menu-submenu {
+            &>.ant-menu-submenu-title {
+                font-size: 12px;
+            }
+            &>.ant-menu-sub {
+                &>.ant-menu-submenu-title {
+                    font-size: 12px;
+                }
+                &>.ant-menu-submenu {
+                    &>.ant-menu-submenu-title {
+                        font-size: 12px;
+                        margin: 0;
+                    }
+                    .ant-menu-item {
+                        height: 36px;
+                        line-height: 36px;
+                        margin: 0;
+                        font-size: 12px;
+                    }
+                }
+                &>.ant-menu-item {
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 12px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    // .ant-menu.ant-menu-dark .ant-menu-item-selected,
+    // .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    //     background-color: #009688;
+    // }
+}
